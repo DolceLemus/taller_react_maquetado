@@ -1,0 +1,18 @@
+.Welcome-container{
+    width: 99%;
+    height: 30em;
+    background-color: rgb(235, 228, 228);
+    margin: .5em;
+    background-image: url('./background.jpg');
+    background-position: center;
+    padding-top: 12em;
+}
+
+.Welcome-text{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    font-weight: bolder;
+    background-color: rgb(235,235, 235, 0.4)
+}
