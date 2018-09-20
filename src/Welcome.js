@@ -5,8 +5,7 @@ import './Welcome.css';
 
 import image from './assets/image2.jpg';
 
-class Welcome extends React.Component{
-    render(){
+function Welcome(props){  
         return(
             <section className="Welcome-container">
                 <div className="Welcome-background">
@@ -14,7 +13,6 @@ class Welcome extends React.Component{
                 </div>
             </section>
         );
-    }
 }
 
 export default Welcome;
