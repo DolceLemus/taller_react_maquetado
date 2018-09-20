@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 // estilos
 import './Aboutme.css';
 //imagenes
-import image from './image.jpg';
+import image from './assets/image.jpg';
 
 
 class Aboutme extends React.Component{

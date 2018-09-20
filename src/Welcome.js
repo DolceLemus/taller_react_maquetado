@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import './Welcome.css';
 
-import image from './image2.jpg';
+import image from './assets/image2.jpg';
 
 class Welcome extends React.Component{
     render(){
