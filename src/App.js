@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-// import logo from './assets/logo.svg';
 import './App.css';
 
 // secciones
 import Welcome from './Welcome';
 import Aboutme from './Aboutme';
+import Proyect from './Proyect';
+import Contact from './Contact';
 
 
 
@@ -14,6 +15,8 @@ class App extends Component {
       <div>
         <Welcome />
         <Aboutme />
+        <Proyect />
+        <Contact />
       </div>
     );
   }

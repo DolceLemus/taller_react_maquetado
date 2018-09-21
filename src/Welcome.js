@@ -1,9 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
 import './Welcome.css';
-
-import image from './assets/image2.jpg';
 
 function Welcome(props){  
         return(

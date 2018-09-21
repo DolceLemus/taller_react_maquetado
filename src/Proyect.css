@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 30em;
+    width: 50%;
+    /* box-sizing: border-box; */
+}
+
+
+.Proyect-container{
+    width: 99%;
+    height: 30em;
+    background-color: rgb(235, 228, 228);
+    margin: .5em;
+}
+
+.Proyect-text-container{
+    padding: 4em;
+}
+
+.Proyect-text-container,Proyect-image-containe{
+    float: left;
+    width: 49%;
+    height: 30em;
+}
