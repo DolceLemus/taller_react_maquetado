@@ -1,12 +1,11 @@
 import React from 'react';
 import './Icon.css';
-import fb from './assets/fb_icon.png';
 
 function Icon (props){
     return(
-        <div>
-            <img alt="redes sociales" className="Icon-image"/>
-        </div>
+        <a href={props.href}>
+            <img src={`/assets/${props.img}`} alt={props.name} className="Icon-image"/>
+        </a>    
     );
 }
 

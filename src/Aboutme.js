@@ -2,15 +2,12 @@
 import React from 'react';
 // estilos
 import './Aboutme.css';
-//imagenes
-import image from './assets/image.jpg';
-
 
 function Aboutme (props){
     return (
         <section className="Aboutme-container">
             <div className="Aboutme-image-container">
-                <img className="Aboutme-image" src={image}/>
+                <img className="Aboutme-image" src="/assets/image.jpg"/>
             </div>
             <div className="Aboutme-info-container">
                 <h1 className="Aboutme-title">About Me</h1>
